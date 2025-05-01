@@ -1,0 +1,6 @@
+﻿nome = input("Digite seu nome: ")
+print("Olá, " + nome + "!")
+print(f"Olá, {nome}!")
+print("Olá, {}!".format(nome))
+print("Olá, %s!" % nome)
+print("Olá,", nome, "!")
